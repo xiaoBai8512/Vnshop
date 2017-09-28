@@ -53,7 +53,7 @@
                     <div class="name">{{item.productName}}</div>
                     <div class="price">{{item.salePrice}}</div>
                     <div class="btn-area">
-                      <a href="javascript:;" class="btn btn--m">加入购物车</a>
+                      <a href="javascript:;" class="btn btn--m" @click="addCart(item.productId)">加入购物车</a>
                     </div>
                   </div>
                 </li>
@@ -167,6 +167,7 @@
       },
       setPriceFilter (index) {
         this.priceChecked = index
+        this.page = 1;
         this.getGoods()
       },
       loadMore: function () {
@@ -178,6 +179,18 @@
           this.getGoods(true)
 //          this.busy = false
         }, 1000)
+      },
+      addCart: function (productId) {
+        axios.post('/goods/addCart', {
+          productId: productId
+        }).then((result) => {
+          let res = result.data
+          if (res.status == 1) {
+            alert('加入购物车失败!');
+          }else {
+            alert('加入购物车成功!');
+          }
+        })
       }
     }
   }
