@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var Goods = require('../models/goods');
 var User = require('../models/user');
 
-mongoose.connect('mongodb://47.94.6.17:27017/shop');
+mongoose.connect('mongodb://localhost:27017/shop');
 
 mongoose.connection.on('connected', function () {
     console.log("mongodb connected success");
@@ -109,7 +109,10 @@ router.post('/addCart', function (req, res, next) {
             Goods.findOne({productId: productId}, function (err1, goodDoc) {
                 console.log(productId);
                 console.log(goodDoc);
-                goodDoc.productNum = "1";
+                goodDoc.productNum = 1;
+                goodDoc.checked = 1;
+
+                // 此时去查询这个商品是否存在于用户购物车列表里面
                 userDoc.cartList.push(goodDoc);
                 userDoc.save(function (err2, doc2) {
                     if (err2) {
