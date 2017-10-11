@@ -67,6 +67,8 @@ router.get("/list", function (req, res, next) {
 
     let skip = (currentPage - 1) * pagesize;
     //执行按照什么排序
+
+
     let goodModel = Goods.find(param).sort({'salePrice': sort}).skip(skip).limit(pagesize);
 
     //执行最后结果
@@ -105,6 +107,8 @@ router.post('/addCart', function (req, res, next) {
         }
         else {
             Goods.findOne({productId: productId}, function (err1, goodDoc) {
+                console.log(productId);
+                console.log(goodDoc);
                 goodDoc.productNum = "1";
                 userDoc.cartList.push(goodDoc);
                 userDoc.save(function (err2, doc2) {
@@ -115,8 +119,7 @@ router.post('/addCart', function (req, res, next) {
                     }
 
                 });
-                console.log(productId);
-                console.log(goodDoc);
+
                 // res.json({
                 //     status:'0',
                 //     result:'加入购物车成功'
@@ -125,6 +128,6 @@ router.post('/addCart', function (req, res, next) {
         }
 
     })
-})
+});
 
 module.exports = router;

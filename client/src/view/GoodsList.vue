@@ -70,6 +70,27 @@
 
     <FooterNav/>
 
+    <!-- 在未登录的情况下 -->
+    <modal :mdShow="mdShow">
+      <p slot="message">请先登陆，否则无法加入购物车</p>
+      <div slot="btnGroup">
+        <a href="javascipt:;" class="btn-login" @click="mdShowCart = false">
+          关闭</a>
+      </div>
+    </modal>
+
+    <!-- 在登录的情况下 -->
+    <modal :mdShow="mdShowCart">
+      <p slot="message">加入购物车成功</p>
+      <div slot="btnGroup">
+        <a href="javascipt:;" class="btn btn--m" @click="mdShowCart = false">
+          继续购物</a>
+        <router-link class="btn btn--m" to="/cart">
+          查看购物车
+        </router-link>
+      </div>
+    </modal>
+
   </div>
 </template>
 
@@ -77,7 +98,8 @@
   import HeadNav from '@/components/Head'
   import NavBread from '@/components/NavBread'
   import FooterNav from '@/components/Footer'
-  import axios from 'axios'
+  import Modal from '@/components/Modal'
+  //  import axios from 'axios'
 
   export default {
     data () {
@@ -89,6 +111,8 @@
         page: 1,
         pagesize: 8,
         flag: false,
+        mdShow: false,
+        mdShowCart: false,
         priceFilter: [
           {
             startPrice: '0',
@@ -115,7 +139,8 @@
 //      如果组件的名字和变量的名字一致，就直接写，想改变就写成这种对象的方式
 //      'xiaobai':NavBread,
       NavBread,
-      FooterNav
+      FooterNav,
+      Modal
     },
     created () {
       this.getGoods()
@@ -137,7 +162,7 @@
           pagesize: this.pagesize
         }
 
-        axios.get('/goods/list', {params: param}).then(result => {
+        this.$http.get('/goods/list', {params: param}).then(result => {
 
           let res = result.data
 
@@ -167,7 +192,7 @@
       },
       setPriceFilter (index) {
         this.priceChecked = index
-        this.page = 1;
+        this.page = 1
         this.getGoods()
       },
       loadMore: function () {
@@ -181,14 +206,16 @@
         }, 1000)
       },
       addCart: function (productId) {
-        axios.post('/goods/addCart', {
+        this.$http.post('/goods/addCart', {
           productId: productId
         }).then((result) => {
           let res = result.data
           if (res.status == 1) {
-            alert('加入购物车失败!');
-          }else {
-            alert('加入购物车成功!');
+            this.mdShow = true
+            //  alert('加入购物车失败！')
+          } else {
+            // alert('加入购物车成功！')
+            this.mdShowCart = true
           }
         })
       }

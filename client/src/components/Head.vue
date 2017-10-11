@@ -15,229 +15,12 @@
               <div class='item-children'>
                 <div class="container">
                   <ul class="children-list clearfix">
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=27"><img src=""
-                                                       alt="小米电视2 40英寸"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=27">小米电视2 40英寸</a></div>
-                      <p class="price">2200<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=28"><img src=""
-                                                       alt="小米平板 16G"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=28">小米平板 16G</a></div>
-                      <p class="price">1299<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=29"><img src=""
-                                                       alt="小米盒子增强版 1G"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=29">小米盒子增强版 1G</a></div>
-                      <p class="price">299<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=53"><img src=""
-                                                       alt="小米电视2S48英寸"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=53">小米电视2S48英寸</a></div>
-                      <p class="price">2999<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=77"><img src=""
-                                                       alt="小米电视/盒子遥控器"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=77">小米电视/盒子遥控器</a></div>
-                      <p class="price">29<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=76"><img src=""
-                                                       alt="小米盒子mini版"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=76">小米盒子mini版</a></div>
-                      <p class="price">199<em>元</em>元</p>
-                    </li>
+
                   </ul>
                 </div>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="link" href="category.php?id=69"><span>购买手机</span></a>
-              <div class='item-children'>
-                <div class="container">
-                  <ul class="children-list clearfix">
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=82"><img src=""
-                                                       alt="红米手机2A"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=82">红米手机2A</a></div>
-                      <p class="price">899<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=80"><img src=""
-                                                       alt="小米NOTE"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=80">小米NOTE</a></div>
-                      <p class="price">2199<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=56"><img src=""
-                                                       alt="小米手机4"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=56">小米手机4</a></div>
-                      <p class="price">1499<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=78"><img src=""
-                                                       alt="红米Note2"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=78">红米Note2</a></div>
-                      <p class="price">799<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=81"><img src=""
-                                                       alt="红米手机2"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=81">红米手机2</a></div>
-                      <p class="price">599<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=79"><img src=""
-                                                       alt="小米Note顶配版 合约机"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=79">小米Note顶配版 合约机</a></div>
-                      <p class="price">2999<em>元</em>元</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="link" href="category.php?id=101"><span>耳机音箱与存储卡</span></a>
-              <div class='item-children'>
-                <div class="container">
-                  <ul class="children-list clearfix">
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=96"><img src=""
-                                                       alt="QCY派Q8蓝牙耳机"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=96">QCY派Q8蓝牙耳机</a></div>
-                      <p class="price">60<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=103"><img src=""
-                                                        alt="铁三角COR150入耳式耳机"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=103">铁三角COR150入耳式耳机</a></div>
-                      <p class="price">139<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=38"><img src=""
-                                                       alt="小米活塞耳机 炫彩版"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=38">小米活塞耳机 炫彩版</a></div>
-                      <p class="price">39<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=30"><img src=""
-                                                       alt="小米头戴式耳机"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=30">小米头戴式耳机</a></div>
-                      <p class="price">499<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=47"><img src=""
-                                                       alt="米兔手机U盘升级版"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=47">米兔手机U盘升级版</a></div>
-                      <p class="price">50<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=46"><img src=""
-                                                       alt="小钢炮蓝牙音箱"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=46">小钢炮蓝牙音箱</a></div>
-                      <p class="price">129<em>元</em>元</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="link" href="category.php?id=108"><span>保护套与贴膜</span></a>
-              <div class='item-children'>
-                <div class="container">
-                  <ul class="children-list clearfix">
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=57"><img src=""
-                                                       alt="清水软胶保护套"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=57">清水软胶保护套</a></div>
-                      <p class="price">5<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=87"><img src=""
-                                                       alt="普通高透贴膜(单片装)"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=87">普通高透贴膜(单片装)</a></div>
-                      <p class="price">10<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=86"><img src=""
-                                                       alt="安卓防尘塞"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=86">安卓防尘塞</a></div>
-                      <p class="price">6<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=84"><img src=""
-                                                       alt="插卡式翻盖保护套"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=84">插卡式翻盖保护套</a></div>
-                      <p class="price">29<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=85"><img src=""
-                                                       alt="清水软胶保护套"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=85">清水软胶保护套</a></div>
-                      <p class="price">5<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=88"><img src=""
-                                                       alt="米兔主题3D保护壳"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=88">米兔主题3D保护壳</a></div>
-                      <p class="price">39<em>元</em>元</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </li>
+
             <li class="nav-item">
               <a class="link" href="category.php?id=118"><span>小米生活方式</span></a>
               <div class='item-children'>
@@ -251,46 +34,7 @@
                       <div class="title"><a href="goods.php?id=89">纯色开衫卫衣 女款</a></div>
                       <p class="price">129<em>元</em>元</p>
                     </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=90"><img src=""
-                                                       alt="企鹅版米兔"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=90">企鹅版米兔</a></div>
-                      <p class="price">49<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=91"><img src=""
-                                                       alt="简约多功能双肩包"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=91">简约多功能双肩包</a></div>
-                      <p class="price">99<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=92"><img src=""
-                                                       alt="小米鼠标垫"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=92">小米鼠标垫</a></div>
-                      <p class="price">5<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=43"><img src=""
-                                                       alt="小蚁蓝牙自拍杆"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=43">小蚁蓝牙自拍杆</a></div>
-                      <p class="price">129<em>元</em>元</p>
-                    </li>
-                    <li class="first">
-                      <div class="figure figure-thumb">
-                        <a href="goods.php?id=94"><img src=""
-                                                       alt="猫的秘密"></a>
-                      </div>
-                      <div class="title"><a href="goods.php?id=94">猫的秘密</a></div>
-                      <p class="price">199<em>元</em>元</p>
-                    </li>
+
                   </ul>
                 </div>
               </div>
@@ -305,10 +49,13 @@
           </a>
         </div>
         <div class="topbar-info J_userInfo" id="ECS_MEMBERZONE">
-          <a class="link" href="user.php" rel="nofollow">登录</a>
-          <span class="sep">|</span>
-          <a class="link" href="user.php?act=register" rel="nofollow">注册</a>
+          <span v-text="nickName" v-if="nickName"> </span>
+          <a class="link" href="javascript:void (0)" rel="nofollow" v-if="!nickName"
+             @click="loginModelFlag = true">登录</a>
+          <span class="sep" v-if="nickName">|</span>
+          <a class="link" href="javascript:void (0)" rel="nofollow" v-if="nickName" @click="logout">退出</a>
         </div>
+
         <!-- </div> -->
       </div>
       <div id="J_navMenu" class="header-nav-menu" style="display: none;">
@@ -316,14 +63,87 @@
       </div>
     </div>
 
+    <!-- 登录框 -->
+    <div class="md-modal modal-msg md-modal-transition " :class="{'md-show' : loginModelFlag}">
+      <div class="md-modal-inner">
+        <div class="md-top">
+          <div class="md-title">登录</div>
+          <button class="md-close">Close</button>
+        </div>
+        <div class="md-content">
+          <div class="confirm-tips">
+            <div class="error-wrap">
+              <span class="error error-show"></span>
+            </div>
+            <ul>
+              <li class="regi_form_input">
+                <input type="text" tabindex="1" name="loginname" v-model="userName" placeholder="User Name"
+                       data-type="loginname" class="regi_login_input regi_login_input_left">
+              </li>
+              <li class="regi_form_input noMargin">
+                <i class="icon IconPwd"></i>
+                <input type="password" tabindex="2" name="password" v-model="userPwd" placeholder="Password"
+                       class="regi_login_input regi_login_input_left login-input-no input_text" @keyup.enter="login">
+              </li>
+            </ul>
+
+          </div>
+          <div class="login-wrap">
+            <a href="javascript:;" class="btn-login" @click="login">登录</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="md-overlay" v-if="loginModelFlag" @click="loginModelFlag = false">
+    </div>
 
   </div>
 
 </template>
 
 <script>
+  //  import axios from 'axios'
+
   export default {
-    name: 'header'
+    name: 'header',
+    data () {
+      return {
+        userName: '',
+        userPwd: '',
+        nickName: '',
+        loginModelFlag: false
+      }
+    },
+    mounted: function () {
+      this.checkLogin()
+    },
+    methods: {
+      login () {
+        this.$http.post('/users/login', {
+          userName: this.userName,
+          userPwd: this.userPwd
+        }).then((result) => {
+          console.log(result.data)
+
+          let res = result.data
+          this.nickName = res.result.userName
+          this.loginModelFlag = false
+        })
+      },
+      checkLogin () {
+        this.$http.post('/users/checkLogin').then((result) => {
+          let res = result.data
+          this.nickName = res.result
+        })
+      },
+      logout () {
+        this.$http.post('users/logout').then((result) => {
+          let res = result.data
+          this.nickName = ''
+        })
+      }
+    }
+
   }
 </script>
 
