@@ -37,8 +37,8 @@
       <file leaf-file-name="goods.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/goods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="140">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#282#331#0" expanded="false" />
                 <element signature="e#379#425#0" expanded="false" />
@@ -264,12 +264,12 @@
       <workItem from="1507721693687" duration="589000" />
       <workItem from="1507727756872" duration="599000" />
       <workItem from="1507733508063" duration="8092000" />
-      <workItem from="1507771100361" duration="138000" />
+      <workItem from="1507771100361" duration="1060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84966000" />
+    <option name="totallyTimeSpent" value="85888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="66" width="1485" height="843" extended-state="1" />
@@ -302,7 +302,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -809,8 +809,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/goods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#282#331#0" expanded="false" />
             <element signature="e#379#425#0" expanded="false" />
