@@ -73,7 +73,7 @@
               <a href="article.php?id=13" target="_blank" title="服务网点" rel="nofollow">服务网点</a>
             </dd>
             <dd>
-              <a href="article.php?id=14" target="_blank" title="vnshop" rel="nofollow">vnshop</a>
+              <a href="article.php?id=14" target="_blank" title="vnshop" rel="nofollow">xiaoShop</a>
             </dd>
 
           </dl>
