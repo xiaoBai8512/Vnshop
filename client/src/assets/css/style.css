@@ -273,11 +273,11 @@ a:hover {
     *zoom: 1
 }
 
-@font-face {
-    font-family: 'iconfont';
+/*@font-face {*/
+    /*font-family: 'iconfont';*/
     /*src: url("iconfont.eot");*/
     /*src: url("iconfont.eot?#iefix") format("embedded-opentype")*/
-}
+/*}*/
 
 @font-face {
     font-family: 'iconfont';

@@ -12,7 +12,7 @@ var userSchema = new Schema({
         "productImage": String,
         "productUrl": String,
         "productNum": String,
-        "checked": String
+        "checked": Boolean
     }],
     "addressList": [{
         "addressId": String,

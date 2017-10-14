@@ -64,7 +64,7 @@
                 <div class="cart-tab-1">
                   <div class="cart-item-check">
                     <a href="javascipt:;" class="checkbox-btn item-check-btn"
-                       v-bind:class="{'check':item.checked == '1'}"
+                       v-bind:class="{'check':item.checked == true}"
                        @click="editCart('checked',item)">
                       <svg class="icon icon-ok">
                         <use xlink:href="#icon-ok"></use>
@@ -158,10 +158,11 @@
     name: 'cart',
     data () {
       return {
-        cartList: '',
+        cartList: [],
         checked: '',
         modalConfirm: false,
-        productId: ''
+        productId: '',
+
       }
     },
     computed: {
@@ -192,7 +193,7 @@
       FooterNav,
       Modal
     },
-    mounted () {
+    created () {
       this.getCartList()
     },
     methods: {
@@ -222,6 +223,7 @@
         }).then((result) => {
           let res = result.data.result
         })
+//        this.getCartList()
       },
       delCartConfirm (productId) {
         this.modalConfirm = true
@@ -234,21 +236,23 @@
           // 模态框关闭
           this.modalConfirm = false
           // 重新渲染
-          this.getCarList()
+          this.getCartList()
         })
       },
       toggleCheckAll () {
         let flag = !this.checkAllFlag
         this.cartList.forEach((item) => {
-          item.checked = flag ? 1 : 0
+          item.checked = flag? true : false
         })
-
+        console.log(this.checkAllFlag);
         this.$http.post('/users/editCheckAll', {
+
           checkAll: this.checkAllFlag
         }).then((response) => {
           let res = response.data
 
         })
+//        this.getCartList();
       },
       checkOut () {
         if (this.checkedCount > 0) {

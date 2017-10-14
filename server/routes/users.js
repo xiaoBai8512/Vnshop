@@ -124,6 +124,8 @@ router.post('/editCheckAll', function (req, res, next) {
     let userId = req.cookies.userId,
         checkAll = req.body.checkAll;
 
+    console.log(checkAll)
+
     User.findOne({'userId': userId}, function (err, user) {
         if (err) {
             res.json({
@@ -250,7 +252,25 @@ router.post("/payMent", function (req, res, next) {
                     goodsList.push(item);
                 }
             })
+            doc.cartList.forEach(item => {
 
+                if (item.checked == true) {
+                    console.log(item.productId)
+                    User.update({
+                        userId: userId //确定的条件
+                    }, {
+                        // 操作的事情
+                        $pull: {
+                            'cartList': {
+                                'productId': item.productId
+                            }
+                        }
+                    }, function (err, ddd) {
+                        console.log(err)
+                    })
+                }
+
+            });
             var platform = '622';
             var r1 = Math.floor(Math.random() * 10);
             var r2 = Math.floor(Math.random() * 10);
