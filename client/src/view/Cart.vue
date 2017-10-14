@@ -222,6 +222,7 @@
           checked: item.checked
         }).then((result) => {
           let res = result.data.result
+          this.getCartList();
         })
 //        this.getCartList()
       },
