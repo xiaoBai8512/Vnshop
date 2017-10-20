@@ -3,7 +3,7 @@
     <div class="site-header" style="clear:both;">
       <div class="container">
         <div class="header-logo">
-          <router-link to="/" title="VN"><img src="/static/img/vn-logo.png"/></router-link>
+          <router-link to="/" title="VN"><img src="/static/img/km-logo.png"/></router-link>
         </div>
         <div class="header-nav">
           <ul class="nav-list">
