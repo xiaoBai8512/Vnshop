@@ -68,7 +68,7 @@
       <div class="md-modal-inner">
         <div class="md-top">
           <div class="md-title">登录</div>
-          <button class="md-close">Close</button>
+          <button class="md-close">关闭</button>
         </div>
         <div class="md-content">
           <div class="confirm-tips">
