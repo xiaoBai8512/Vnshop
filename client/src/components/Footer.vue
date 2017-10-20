@@ -113,7 +113,7 @@
 
 
           <div class="col-contact">
-            <p class="phone">400-023-3005</p>
+            <p class="phone">400-023-1234</p>
             <p>周一至周日 8:00-18:00<br>（仅收市话费）</p>
             <a rel="nofollow" class="btn btn-line-primary btn-small">
               <i class="iconfont"></i> 24小时在线客服
@@ -129,7 +129,7 @@
           <p class="sites">
           </p>
           <p>
-            ©<a href='#'>xiao.xiaobaikm.xin</a> 京ICP证110507号 京ICP备10046444号 京公网安备1101080212535号 <a href='#'>京网文[2014]0059-0009号</a>
+            ©<a href='#'>xiao.xiaobaikm.xin</a> 京ICP证110507号 京ICP备1004444号 京公网安备1101080212535号 <a href='#'>京网文[2014]0059-0009号</a>
           </p>
         </div>
         <div class="info-links">

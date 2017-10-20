@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-//访问拦截,所有访问都走这个逻辑
+//访问拦截,所有访问都走这个逻辑；
 app.use(function (req, res, next) {
     if (req.cookies.userId) {
         next();
